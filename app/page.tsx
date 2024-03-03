@@ -1,4 +1,5 @@
 import Headers from "@/components/Headers";
+import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -6,37 +7,13 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Home() {
   return (
     <main className="text-white min-h-screen relative   ">
-      {/* <video
-        src="/bag1.mp4"
+      <Image
+        src={"/bag.gif"}
+        width={500}
         className="min-h-[100%] -z-50 brightness-75 absolute  min-w-[100%] object-cover"
-        autoPlay={true}
-        muted={true}
-        loop={true}
-        playsInline
-      /> */}
-      <video
-        className="min-h-[100%] -z-50 brightness-75 absolute  min-w-[100%] object-cover"
-        loop={true}
-        playsInline
-        autoPlay={true}
-        muted={true}
-        controls
-      >
-        <source src="/bag1.mp4" type="video/mp4" />
-        <source src="/bag.webm" type="video/webm" />
-      </video>
-      {/* <div className="flex justify-between px-10 py-8">
-        <div className="flex space-x-5">
-          <p className="border-r px-3">90 queen St melbounce</p>
-          <p className="border-r px-3">+1-202-555-0192</p>
-          <p>info@email</p>
-        </div>
-        <div className="flex space-x-5 text-xl">
-          <FaFacebook />
-          <FaLinkedin />
-          <FaXTwitter />
-        </div>
-      </div> */}
+        height={500}
+        alt="background"
+      />
       <Headers />
     </main>
   );
