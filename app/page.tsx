@@ -6,14 +6,24 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Home() {
   return (
     <main className="text-white min-h-screen relative   ">
-      <video
+      {/* <video
         src="/bag.mp4"
         className="min-h-[100%] -z-50 brightness-75 absolute  min-w-[100%] object-cover"
         autoPlay={true}
         muted={true}
         loop={true}
         playsInline
-      />
+      /> */}
+      <video
+        className="min-h-[100%] -z-50 brightness-75 absolute  min-w-[100%] object-cover"
+        loop={true}
+        playsInline
+        autoPlay={true}
+        muted={true}
+      >
+        <source src="/bag.webm" type="video/webm" />
+        <source src="/bag.mp4" type="video/mp4" />
+      </video>
       {/* <div className="flex justify-between px-10 py-8">
         <div className="flex space-x-5">
           <p className="border-r px-3">90 queen St melbounce</p>
