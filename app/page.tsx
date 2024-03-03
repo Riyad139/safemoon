@@ -12,6 +12,7 @@ export default function Home() {
         autoPlay={true}
         muted={true}
         loop={true}
+        playsInline
       />
       {/* <div className="flex justify-between px-10 py-8">
         <div className="flex space-x-5">
