@@ -9,9 +9,9 @@ export default function Home() {
       <video
         src="/bag.mp4"
         className="min-h-[100%] -z-50 brightness-75 absolute  min-w-[100%] object-cover"
-        autoPlay
-        muted
-        loop
+        autoPlay={true}
+        muted={true}
+        loop={true}
       />
       {/* <div className="flex justify-between px-10 py-8">
         <div className="flex space-x-5">
