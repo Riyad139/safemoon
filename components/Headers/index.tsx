@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Headers() {
   const headerText = useTypingEffect("SAFEMOON");
   return (
-    <div className="w-full justify-between px-5 text-center pt-28 flex flex-col min-h-screen sm:pt-48">
+    <div className="w-full  px-5 text-center pt-28  min-h-screen sm:pt-48">
       <div>
         <h2 className=" text-6xl sm:text-8xl font-bold">{headerText}</h2>
         <p className="text-2xl uppercase pt-9">
@@ -21,7 +21,7 @@ export default function Headers() {
           </button>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative mt-[95%] sm:mt-[45%] md:mt-[35%] lg:mt-[25%]">
         <div className="mb-5 max-w-fit  mx-auto relative  px-2 text-2xl xl:text-6xl py-5 bg-[#FCFC03]  text-black ">
           <p className="font-semibold">Contract adress</p>
           <p className=" text-sm sm:text-xl xl:text-3xl">
