@@ -11,7 +11,7 @@ export default function NavBar() {
         height={500}
       />
       <button className="uppercase bg-[#FCFC03] text-black px-5 py-3 text-xl  mt-8 ">
-        Launch App
+        Buy
       </button>
     </div>
   );
