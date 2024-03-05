@@ -10,9 +10,6 @@ export default function NavBar() {
         width={500}
         height={500}
       />
-      <button className="uppercase mb-7 bg-[#FCFC03] text-black px-5 py-3 text-xl  mt-8 ">
-        Chart
-      </button>
     </div>
   );
 }
