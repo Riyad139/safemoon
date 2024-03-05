@@ -37,6 +37,22 @@ export default function Headers() {
             EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
           </p>
         </div>
+        <div className="flex justify-center gap-4">
+          <Link
+            target="_blank"
+            href={"https://x.com/safemoonsol2024?s=21&t=omkKmJifOvtNJO3oM38jiw"}
+            className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
+          >
+            Buy
+          </Link>
+          <Link
+            target="_blank"
+            href={"https://x.com/safemoonsol2024?s=21&t=omkKmJifOvtNJO3oM38jiw"}
+            className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
+          >
+            chart
+          </Link>
+        </div>
       </div>
     </div>
   );
