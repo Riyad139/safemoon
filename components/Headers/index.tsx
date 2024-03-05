@@ -31,27 +31,27 @@ export default function Headers() {
         </div>
       </div>
       <div className="relative mt-[95%] sm:mt-[45%] md:mt-[35%] lg:mt-[20%]">
-        <div className="mb-5 max-w-fit  mx-auto relative  px-2 text-2xl xl:text-6xl py-5 bg-[#FCFC03]  text-black ">
-          <p className="font-semibold">Contract adress</p>
-          <p className=" text-sm sm:text-xl xl:text-3xl">
-            EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
-          </p>
-        </div>
-        <div className="flex justify-center gap-4">
+        <div className="flex mb-7 justify-center gap-4">
           <Link
             target="_blank"
-            href={"https://x.com/safemoonsol2024?s=21&t=omkKmJifOvtNJO3oM38jiw"}
+            href={"#"}
             className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
           >
             Buy
           </Link>
           <Link
             target="_blank"
-            href={"https://x.com/safemoonsol2024?s=21&t=omkKmJifOvtNJO3oM38jiw"}
+            href={"#"}
             className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
           >
             chart
           </Link>
+        </div>
+        <div className="mb-5 max-w-fit  mx-auto relative  px-2 text-2xl xl:text-6xl py-5 bg-[#FCFC03]  text-black ">
+          <p className="font-semibold">Contract adress</p>
+          <p className=" text-sm sm:text-xl xl:text-3xl">
+            EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
+          </p>
         </div>
       </div>
     </div>
