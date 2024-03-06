@@ -34,14 +34,18 @@ export default function Headers() {
         <div className="flex mb-7 justify-center gap-4">
           <Link
             target="_blank"
-            href={"#"}
+            href={
+              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa&fixed=in"
+            }
             className="uppercase bg-[#FCFC03] text-black px-5 py-2 rounded-sm text-5xl  mt-8 "
           >
             Buy
           </Link>
           <Link
             target="_blank"
-            href={"#"}
+            href={
+              "https://birdeye.so/token/3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa?chain=solana"
+            }
             className="uppercase bg-[#FCFC03] text-black px-5 py-2  text-5xl rounded-sm   mt-8 "
           >
             chart
@@ -50,7 +54,7 @@ export default function Headers() {
         <div className="mb-5 max-w-fit  mx-auto relative  px-2 text-2xl xl:text-6xl py-5 bg-[#FCFC03]  text-black ">
           <p className="font-semibold">Contract adress</p>
           <p className=" text-sm sm:text-xl xl:text-3xl">
-            EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g
+            3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa
           </p>
         </div>
       </div>
