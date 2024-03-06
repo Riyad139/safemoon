@@ -30,19 +30,19 @@ export default function Headers() {
           </Link>
         </div>
       </div>
-      <div className="relative mt-[95%] sm:mt-[45%] md:mt-[35%] lg:mt-[20%]">
+      <div className="relative mt-[70%] sm:mt-[45%] md:mt-[35%] lg:mt-[14%]">
         <div className="flex mb-7 justify-center gap-4">
           <Link
             target="_blank"
             href={"#"}
-            className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
+            className="uppercase bg-[#FCFC03] text-black px-5 py-2 rounded-sm text-5xl  mt-8 "
           >
             Buy
           </Link>
           <Link
             target="_blank"
             href={"#"}
-            className="uppercase bg-[#FCFC03] text-black px-3 py-1.5 rounded-sm text-xl  mt-8 "
+            className="uppercase bg-[#FCFC03] text-black px-5 py-2  text-5xl rounded-sm   mt-8 "
           >
             chart
           </Link>

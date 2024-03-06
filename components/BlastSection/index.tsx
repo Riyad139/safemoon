@@ -16,14 +16,19 @@ export default function BlastSection() {
 
       <div className="uppercase max-w-[60rem] relative px-5 text-center mx-auto py-36 text-white">
         <h3 className=" text-4xl sm:text-6xl border-t-4 pt-11 font-semibold">
-          Blast your projects with our All-in-one tool
+          it’s Solana meme coin season
         </h3>
-        <p className="mt-7 text-base sm:text-xl">
-          Introducing the most comprehensive DEX on BLAST! {"We've"} built a
-          user-friendly platform that empowers anyone to launch their projects
-          on this blockchain without the need for programming skills. Your
-          project, your way <br /> – unleash your creativity effortlessly with
-          our all-inclusive DEX.
+        <p className="mt-7 text-base sm:text-xl text-left">
+          If it’s your first time back to crypto since 2021 : Solana in this
+          bull run is like what BNB was last bull run <br />
+          <br />
+          Safemoon was the biggest Memecoin with a 17Billion $ Market cap before
+          it went to 0 <br />
+          <br />
+          Our goal is to surpass the success of the old Safemoon.
+          <br />
+          <br />
+          LP BURNT 🔥 Contract Renounced 🔐
         </p>
       </div>
     </div>
