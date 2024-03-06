@@ -19,8 +19,8 @@ export default function BlastSection() {
           it’s Solana meme coin season
         </h3>
         <p className="mt-7 text-base sm:text-xl text-left">
-          If it’s your first time back to crypto since 2021 : Solana in this
-          bull run is like what BNB was last bull run <br />
+          If it’s your first time back to crypto since 2021 Solana in this bull
+          run is like what BNB was last bull run <br />
           <br />
           Safemoon was the biggest Memecoin with a 17Billion $ Market cap before
           it went to 0 <br />
