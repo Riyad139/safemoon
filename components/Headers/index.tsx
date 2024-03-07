@@ -54,7 +54,7 @@ export default function Headers() {
         <div className="mb-5 max-w-fit  mx-auto relative  px-2 text-2xl xl:text-6xl py-5 bg-[#FCFC03]  text-black ">
           <p className="font-semibold">Contract adress</p>
           <p className=" text-sm sm:text-xl xl:text-3xl">
-            3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa
+            FF6t6fY6CCVxcfvgJPJ5v7fzcgt3uV8hAoESZzpGrGYB
           </p>
         </div>
       </div>
