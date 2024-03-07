@@ -35,7 +35,7 @@ export default function Headers() {
           <Link
             target="_blank"
             href={
-              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa&fixed=in"
+              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=FF6t6fY6CCVxcfvgJPJ5v7fzcgt3uV8hAoESZzpGrGYB=in"
             }
             className="uppercase bg-[#FCFC03] text-black px-5 py-2 rounded-sm text-5xl  mt-8 "
           >
@@ -44,7 +44,7 @@ export default function Headers() {
           <Link
             target="_blank"
             href={
-              "https://birdeye.so/token/3QqNqKFtuiELbf52S4DojskswWzGzuvS3JvHf7CTZ8Xa?chain=solana"
+              "https://birdeye.so/token/FF6t6fY6CCVxcfvgJPJ5v7fzcgt3uV8hAoESZzpGrGYB?chain=solana"
             }
             className="uppercase bg-[#FCFC03] text-black px-5 py-2  text-5xl rounded-sm   mt-8 "
           >
